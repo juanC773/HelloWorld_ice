@@ -1,0 +1,8 @@
+# Configuración del proxy para la impresora
+Printer.Proxy=SimplePrinter:tcp -h localhost -p 10001
+
+# Configuración del proxy para la calculadora
+Calculator.Proxy=Calculator:tcp -h localhost -p 10002
+
+# Sólo escucha en localhost
+Ice.Default.Host=localhost

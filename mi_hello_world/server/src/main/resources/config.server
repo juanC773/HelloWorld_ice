@@ -1,0 +1,8 @@
+# Configuración para el adaptador de Printer
+Printer.Endpoints=tcp -p 10001
+
+# Configuración para el adaptador de Calculator
+calculatorAdapter.Endpoints=tcp -p 10002
+
+# Solo escucha en localhost
+Ice.Default.Host=localhost
